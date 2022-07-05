@@ -1,5 +1,3 @@
-//import Clientes from '../clientes/clientes.js';
-
 function carregaHTML() {
     // ESCONDE FORMULARIO
     document.getElementById("btnEsconder").style.display = "none";
