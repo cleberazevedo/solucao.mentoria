@@ -18,8 +18,6 @@ class Clientes {
             this.cpf
         ]);
 
-        console.log(arrayCliente);
-
         return this;
     }
 
