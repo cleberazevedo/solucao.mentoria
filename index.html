@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>SOLUCAO INF.</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/scripts.js"></script>
+        <script src="js/cadastro_cliente.js"></script>
+        <script src="clientes/clientes.js"></script>
+    </head>
+    <body onload="carregaHTML();">
+        <header>
+            <ul>
+                <li><a href="iframe.html" target="_blank"><b>CADASTRO</b></a></li>
+            </ul>
+            <input type="button" onclick="CadastrarNovo();" value="CADASTRAR NOVO" /> 
+            <input type="button" onclick="EsconderNovo();" value="CANCELAR" id="btnEsconder" />
+            <br /><br />
+            <table width="800" border="0" cellspacing="2" cellpadding="2" class="tabelaUsuarios">
+                <tr class="cabecalho">
+                    <td>ID</td>
+                    <td>NOME</td>
+                    <td>CPF</td>
+                    <td>OPÇÕES</td>
+                </tr>
+                <tbody class="linhaEspaco" id="dados"></tbody>
+            </table>
+            <br /><br />
+            <div id="formulario">
+                Nome <input type="text" value="" id="nome" /> <br /><br />
+                CPF <input type="text" value="" id="cpf" /> <br /><br />
+                <input type="button" id="btnSalvar" value="SALVAR" onclick="Save()" /> 
+                <input type="button" id="btnEditar" value="EDITAR" onclick="Edit()" /> 
+            </div>
+        </header>
+        <footer>
+            copyright solucao
+        </footer>
+    </body>
+</html>

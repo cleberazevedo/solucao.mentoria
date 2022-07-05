@@ -1,0 +1,22 @@
+body { margin: 0, 0, 0, 0; }
+.tabelaUsuarios {
+    border: 1px solid #000;
+    width: 100%;
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;       
+}
+.TIAO { font-family: 'Times New Roman', Times, serif; font-display: initial; font-style: italic; }
+.cabecalho {
+    background-color: #CCC;
+}
+.linhaEspaco {
+    padding: 10px;    
+}
+a:link { color: red; text-decoration: none; }
+a:visited { color: yellow;}
+a:active { color: yellow; }
+
+#formulario {
+    display: none;
+}
